@@ -7,7 +7,7 @@ public class Application {
         Scanner input = new Scanner(System.in);
         st = input.nextLine();
 
-        System.out.println("Your string has " + countLetter(st) + " characters!" );
+        System.out.println("Your string has " + countLetter(st) + " letters!" );
     }
 
     private static int countLetter(String string) {
